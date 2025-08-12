@@ -33,6 +33,8 @@ github:
   del_branch_on_merge: true
   features:
     issues: true
+  protected_branches:
+    master: { }
 notifications:
   commits: commits@maven.apache.org
   issues: issues@maven.apache.org
